@@ -11,7 +11,7 @@ terraform {
 provider "proxmox" {
     pm_api_url = "https://amp5.elga.net.id:8006/api2/json"
     pm_api_token_id = "tf_kube@pam!tf_token_id"
-    pm_api_token_secret = "6ad01c41-6e24-43a5-a666-de10ddb260b9"
+    pm_api_token_secret = "token"
     pm_tls_insecure = "true"
 }
 
